@@ -1,0 +1,12 @@
+POST https://auth.exacttargetapis.com/v1/requestToken
+Content-Type: application/json
+{
+    "clientId": "zttsl2b1ztj7sfx6pjs4vzkm",
+    "clientSecret": "Jl2CdlEUbMMSAKOSM1O5i5Eq"
+}
+
+200 OK
+{
+    "accessToken": "zttsl2b1ztj7sfx6pjs4vzkm"
+    "expiresIn": 3600
+}
